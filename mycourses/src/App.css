@@ -1,0 +1,31 @@
+
+
+.navbar{
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(61, 61, 231, 0.849);
+  box-shadow: 0px 0px 7px 7px  rgba(82, 47, 47, 0.678);
+  color:white;
+  border-radius: 50px;
+  max-width: 100%;
+} 
+
+
+.navDiv{
+  position: relative;
+}
+
+.itemsIcon{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 20px ;
+
+}
+.counter{
+  background-color: white;
+  color: black;
+  width: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
