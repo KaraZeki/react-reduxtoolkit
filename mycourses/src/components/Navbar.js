@@ -1,11 +1,10 @@
 import React from "react";
 import { FaShoppingBasket } from "react-icons/fa";
-
 import { useSelector } from "react-redux";
 
 const Navbar = () => {
     const {quantity} =useSelector((store)=>store.cart)
-    console.log(quantity)
+    // console.log(useSelector((store)=>store.cart))
   return (
     <nav>
       <div className="navbar">

@@ -29,3 +29,78 @@
   text-align: center;
   border-radius: 50%;
 }
+
+.sectionItem{
+  text-align: center;
+
+}
+
+.clearButton{
+  cursor:pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #d02a2ad6;
+  color: white;
+  margin-bottom: 20px;
+  
+}
+
+.clearButton:hover{
+  box-shadow: 0px 0px 5px 5px rgba(219, 65, 65, 0.329);
+}
+
+
+.listButton{
+  cursor:pointer;
+  padding: 10px;
+  border: none;
+  border-radius: 30px;
+  background-color: #0c751ed6;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.listButton{
+  box-shadow: 0px 0px 5px 5px rgba(65, 199, 52, 0.329);
+}
+
+.cartInfo{
+  /* display: flex; */
+  text-align: right;
+}
+.cartItem{
+  display: flex;
+  margin: 50px 50px;
+  justify-content: space-between;
+
+}
+
+.cartQuantityButton{
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 20PX;
+}
+
+.cartQuantityButton:hover{
+  box-shadow: 0px 0px 4px 4px rgba(199, 86, 86, 0.541);
+}
+
+.removeButton{
+  border-radius: 5px;
+  background-color: #d02a2ad6;
+  border: none;
+  color: white;
+  width: 58px;
+  height: 21px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.removeButton:hover{
+ cursor: pointer;
+ box-shadow: 0px 0px 5px 5px rgba(219, 65, 65, 0.329);
+}
+
+
